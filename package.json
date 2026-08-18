@@ -1,0 +1,20 @@
+{
+  "name": "silueta-bg-remover",
+  "version": "1.0.0",
+  "description": "Background remover using Silueta model via WebSocket",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "postinstall": "node scripts/download-model.js"
+  },
+  "dependencies": {
+    "onnxruntime-node": "^1.16.3",
+    "ws": "^8.14.2",
+    "express": "^4.18.2",
+    "sharp": "^0.33.0",
+    "uuid": "^9.0.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
