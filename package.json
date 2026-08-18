@@ -4,8 +4,7 @@
   "description": "Background remover using Silueta model via WebSocket",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "postinstall": "node scripts/download-model.js"
+    "start": "node server.js"
   },
   "dependencies": {
     "onnxruntime-node": "^1.16.3",
@@ -18,3 +17,4 @@
     "node": ">=18.0.0"
   }
 }
+
